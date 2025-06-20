@@ -1,9 +1,9 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
-  "instagram": "https://instagram.com/",
-  "youtube": "https://youtube.com/",
-  "linkedin": "https://linkedin.com/",
+  "facebook": "",
+  "twitter": "",
+  "instagram": "",
+  "youtube": "https://youtube.com/@creadevlabs",
+  "linkedin": "",
   "github": "",
   "gitlab": "",
   "medium": "",
@@ -22,9 +22,9 @@
   "tiktok": "",
   "foursquare": "",
   "rss": "",
-  "email": "",
+  "email": "brennan@creadevlabs.com",
   "phone": "",
   "address": "",
   "skype": "",
-  "website": ""
+  "website": "https://productivitypals.creadevlabs.com"
 }
