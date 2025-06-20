@@ -1,43 +1,39 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "The System",
+      "url": "/the-system"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Blog",
+      "url": "/blog"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Community",
+      "url": "https://productivitypals.creadevlabs.com"
     },
     {
-      "name": "Pages",
+      "name": "Resources",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Newsletter",
+          "url": "/newsletter"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "Obsidian Vault Downloads",
+          "url": "/obsidian-vault-downloads"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "name": "Visual Book Summaries",
+          "url": "/visual-book-summaries"
         }
       ]
+    },
+    {
+      "name": "About",
+      "url": "/about"
     }
   ],
   "footer": [
