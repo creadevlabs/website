@@ -34,8 +34,28 @@
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "The System",
+      "url": "/the-system"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Community",
+      "url": "https://productivitypals.creadevlabs.com"
+    },
+    {
+      "name": "Newsletter",
+      "url": "/newsletter"
+    },
+    {
+      "name": "Obsidian Vault Downloads",
+      "url": "/obsidian-vault-downloads"
+    },
+    {
+      "name": "Visual Book Summaries",
+      "url": "/visual-book-summaries"
     },
     {
       "name": "Privacy Policy",
