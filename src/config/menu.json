@@ -2,7 +2,34 @@
   "main": [
     {
       "name": "The FIRST Framework",
-      "url": "/the-first-framework"
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Overview",
+          "url": "/the-first-framework"
+        },
+        {
+          "name": "Focus",
+          "url": "/focus"
+        },
+        {
+          "name": "Iterate",
+          "url": "/iterate"
+        },
+        {
+          "name": "Record",
+          "url": "/record"
+        },
+        {
+          "name": "Simplify",
+          "url": "/simplify"
+        },
+        {
+          "name": "Trust",
+          "url": "/trust"
+        }
+      ]
     },
     {
       "name": "Community",
@@ -11,27 +38,12 @@
     {
       "name": "YouTube",
       "url": "https://youtube.com/@creadevlabs"
-    },
-    {
-      "name": "Resources",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Obsidian Vault Downloads",
-          "url": "/obsidian-vault-downloads"
-        },
-        {
-          "name": "Visual Book Summaries",
-          "url": "/visual-book-summaries"
-        }
-      ]
     }
   ],
   "footer": [
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "The First Framework",
+      "url": "/the-first-framework"
     }
   ]
 }
