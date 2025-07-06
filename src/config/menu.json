@@ -1,26 +1,22 @@
 {
   "main": [
     {
-      "name": "The System",
-      "url": "/the-system"
-    },
-    {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "The FIRST Framework",
+      "url": "/the-first-framework"
     },
     {
       "name": "Community",
       "url": "https://productivitypals.creadevlabs.com"
     },
     {
+      "name": "YouTube",
+      "url": "https://youtube.com/@creadevlabs"
+    },
+    {
       "name": "Resources",
       "url": "",
       "hasChildren": true,
       "children": [
-        {
-          "name": "Newsletter",
-          "url": "/newsletter"
-        },
         {
           "name": "Obsidian Vault Downloads",
           "url": "/obsidian-vault-downloads"
@@ -33,30 +29,6 @@
     }
   ],
   "footer": [
-    {
-      "name": "The System",
-      "url": "/the-system"
-    },
-    {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Community",
-      "url": "https://productivitypals.creadevlabs.com"
-    },
-    {
-      "name": "Newsletter",
-      "url": "/newsletter"
-    },
-    {
-      "name": "Obsidian Vault Downloads",
-      "url": "/obsidian-vault-downloads"
-    },
-    {
-      "name": "Visual Book Summaries",
-      "url": "/visual-book-summaries"
-    },
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"

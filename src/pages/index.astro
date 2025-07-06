@@ -1,6 +1,11 @@
 ---
 // import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
+import { Image } from "astro:assets";
+import firstOverview from "@/images/FIRST_overview.png";
+import obsidianLogo from "@/images/Obsidian_logo.png";
+import productivityPalsLogo from "@/images/Productivity_Pals_logo.png";
+import gamifiedTaskManagerLogo from "@/images/Gamified_Task_Manager_logo.gif";
 // import Pagination from "@/layouts/components/Pagination.astro";
 // import Posts from "@/layouts/Posts.astro";
 // import { getSinglePage } from "@/lib/contentParser.astro";
@@ -12,22 +17,21 @@ import Base from "@/layouts/Base.astro";
 // const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
+<script async data-uid="f311597e4f" src="https://creadevlabs.kit.com/f311597e4f/index.js"></script>
+
 <Base>
   <!-- Hero Section -->
   <section class="bg-blue-100 py-20 px-4">
-      <div class="container mx-auto text-center">
-          <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-up">
-              Tired of productivity systems that don't fit? It's time you built your own.
-          </h1>
-          <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto opacity-90 animate-fade-in">
-              Discover how to experiment, shape, and craft a personalized system that empowers the life you truly want to live.
-          </p>
-          <div class="text-center"> <!-- Centering the single button -->
-              <a href="#" class="bg-orange-300 text-white px-8 py-4 rounded-full shadow-lg hover:bg-orange-400 transition duration-300 ease-in-out text-lg font-bold">
-                  Download Starter Guide
-              </a>
-          </div>
-      </div>
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-10 animate-fade-in-up">
+                Learn to craft your own perfect productivity system
+            </h1>
+            <div class="text-center"> <!-- Centering the single button -->
+                <a data-formkit-toggle="f311597e4f" href="https://creadevlabs.kit.com/f311597e4f" class="bg-orange-300 text-white px-8 py-4 rounded-full shadow-lg hover:bg-orange-400 transition duration-300 ease-in-out text-lg font-bold">
+                  Subscribe to My Newsletter
+                </a>
+            </div>
+        </div>
   </section>
 
     <!-- Problem Statement Section -->
@@ -37,10 +41,7 @@ import Base from "@/layouts/Base.astro";
                 You've invested time and effort into every popular task manager and expert's framework, only to find them rigid, incomplete, or simply not aligned with how <em class="font-semibold">you</em> work.
             </p>
             <p class="text-xl text-gray-700 max-w-4xl mx-auto">
-                That nagging feeling persists:
-            </p>
-            <p class="text-xl text-gray-700 max-w-4xl mx-auto">
-                Why does everyone else's system seem to work, but yours falls short?
+                Why is it that everyone else seems to have it all figured out, but you always fall short?
             </p>
         </div>
     </section>
@@ -50,75 +51,82 @@ import Base from "@/layouts/Base.astro";
         <div class="container mx-auto text-center">
             <h2 class="text-4xl font-bold mb-8 text-gray-900">Your Unique Path to Productivity</h2>
             <p class="text-xl text-gray-700 max-w-4xl mx-auto mb-12">
-                The reason those "perfect" systems never quite work for you is simple: <strong class="font-semibold">productivity is deeply personal.</strong> You'll never achieve your full potential by adopting someone else's personalized framework. They built it for them, not you.
+                The reason those "perfect" systems never quite work for you is simple: <strong class="font-semibold">productivity is deeply personal.</strong> You'll never achieve your full potential by adopting someone else's personalized framework. They built their system for themselves, not for you.
             </p>
             <p class="text-xl text-gray-700 max-w-4xl mx-auto">
-                My approach isn't about teaching you <em class="font-semibold">my</em> specific system; it's about guiding you through a simple process to <strong class="font-semibold">craft a perfectly tailored productivity system to meet your needs.</strong>
+                My approach isn't about teaching you <em class="font-semibold">my</em> specific system; it's about guiding you through a simple process to <strong class="font-semibold">craft a perfectly tailored productivity system designed to meet your needs.</strong>
             </p>
         </div>
     </section>
 
-    <!-- How I Help You Build Your System Section -->
+    <!-- Learn the Framework, Master the Tools Section -->
     <section class="py-16 px-4 bg-white">
-      <div class="container mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">How I Help You Build <em class="italic">Your</em> System</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <!-- Service 1: Productivity Pals -->
-            <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
-                <div class="text-blue-600 mb-4">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h2a2 2 0 002-2V8a2 2 0 00-2-2h-2m-4 0V4a2 2 0 00-2-2H9a2 2 0 00-2 2v2M4 9v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H6a2 2 0 00-2 2zm6-6h.01"></path></svg>
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Learn the Framework, Master the Tools</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Column 1: The FIRST Framework -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">The FIRST Framework</h3>
+                    <div class="text-blue-600 mb-4 text-center">
+                        <Image src={firstOverview} width="200" alt="FIRST Framework Overview" />
+                    </div>
+                    <p class="text-gray-700 text-center mb-4">
+                        Where do you start when crafting your perfect productivity system? Start with FIRST! It's a simple framework I've developed to help you craft the perfect system to meet your specific needs.
+                    </p>
+                    <p class="mt-4 text-center">
+                        <a href="#" class="inline-block bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Learn More</a>
+                    </p>
                 </div>
-                <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">Productivity Pals</h3>
-                <p class="text-gray-700 text-center">
-                    You don't have to journey towards perfect productivity alone! Join Productivity Pals, a small, yet growing community dedicated to building and perfecting personalized productivity systems. Connect with like-minded individuals, share real-world insights, and actively hone your personalized productivity system alongside supportive peers.
-                </p>
-                <p class="mt-4 text-center">
-                    <a href="https://productivitypals.creadevlabs.com" target="_blank" class="inline-block bg-green-400 text-green-900 text-sm font-semibold px-3 py-1 rounded-full hover:bg-green-500 transition duration-300">Join Today!</a>
-                </p>
-            </div>
-            <!-- Service 2: Sunstone Academy -->
-            <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
-                <div class="text-blue-600 mb-4">
-                    <!-- Placeholder icon for Sunstone Academy -->
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <!-- Column 2: Obsidian as a Flexible Tool -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">Master Obsidian</h3>
+                    <div class="text-blue-600 mb-4 text-center">
+                        <Image src={obsidianLogo} width="200" alt="Obsidian Logo" />
+                    </div>
+                    <p class="text-gray-700 text-center mb-4">
+                        While FIRST works with any app, I recommend learning and using Obsidian. It's a highly flexible tool for building a personalized productivity system. Its adaptability allows you to shape it precisely to your needs, unlike rigid, off-the-shelf solutions.
+                    </p>
+                    <p class="mt-4 text-center">
+                        <a href="https://youtube.com/@creadevlabs" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-red-700 transition duration-300">Learn Obsidian on YouTube</a>
+                    </p>
                 </div>
-                <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">Sunstone Academy</h3>
-                <p class="text-gray-700 text-center">
-                    Transform your daily tasks into an engaging adventure! Sunstone Academy is a gamified task manager app set in a magical school, designed to make productivity fun and rewarding. It's also a highly flexible task manager, allowing you to adapt it to your unique workflow. Gather resources, unlock achievements, and level up your life as you complete your to-do list.
-                </p>
-                <p class="mt-4 text-center">
-                    <a href="https://youtube.com/playlist?list=PLsntwn2ixQrM6njdiIoIgbA8HgqJqtE0N&si=Z1wC2oPdu8-MN31l" target="_blank" class="inline-block bg-yellow-400 text-yellow-900 text-sm font-semibold px-3 py-1 rounded-full hover:bg-yellow-500 transition duration-300">See Development Progress</a>
-                </p>
-            </div>
-            <!-- Service 3: The Obsidian Productivity Masterclass: Craft Your Own Perfect System -->
-            <div class="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
-                <div class="text-blue-600 mb-4">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                </div>
-                <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">The Obsidian Productivity Masterclass: Craft Your Own Perfect System</h3>
-                <p class="text-gray-700 text-center">
-                    Tired of systems that don't stick? This course combines <strong class="font-semibold">Obsidian's powerful, flexible features</strong> with my <strong class="font-semibold">step-by-step framework</strong> to help you craft one that does. Learn the basics of Obsidian and then apply a proven process to design, implement, and optimize a productivity system uniquely tailored to your needs, so you can finally get things done, your way.
-                </p>
-                <p class="mt-4 text-center">
-                    <a href="#" class="inline-block bg-yellow-400 text-yellow-900 text-sm font-semibold px-3 py-1 rounded-full hover:bg-yellow-500 transition duration-300">Join the Waitlist</a>
-                </p>
             </div>
         </div>
-      </div>
     </section>
 
-    <!-- Final Call to Action Section -->
-    <section class="bg-gray-50 py-20 px-4">
-      <div class="container mx-auto text-center bg-white p-12 rounded-2xl shadow-xl border border-gray-200">
-          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">The time to build your perfect productivity system is now</h2>
-          <p class="text-xl md:text-2xl text-gray-700 mb-10 max-w-3xl mx-auto">
-              Join me and a growing community of individuals using my simple framework to design a system that truly works for them.
-          </p>
-          <a href="#" class="bg-orange-300 text-white px-10 py-5 rounded-full shadow-lg hover:bg-orange-400 transition duration-300 ease-in-out text-xl font-bold inline-flex items-center group">
-              Download my free starter guide today
-              <svg class="ml-3 w-6 h-6 transform group-hover:translate-x-1 transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-          </a>
-      </div>
+    <!-- Need a Little More Help? Section -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Need a Little More Help?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Service 1: Productivity Pals -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">Productivity Pals</h3>
+                    <div class="text-blue-600 mb-4 text-center">
+                        <Image src={productivityPalsLogo} width="200" alt="Productivity Pals Logo" />
+                    </div>
+                    <p class="text-gray-700 text-center">
+                        You don't have to journey towards perfect productivity alone! Join Productivity Pals, a small, yet growing community dedicated to building and perfecting personalized productivity systems. Connect with like-minded individuals, share real-world insights, and actively hone your personalized productivity system alongside supportive peers.
+                    </p>
+                    <p class="mt-4 text-center">
+                        <a href="https://productivitypals.creadevlabs.com" class="inline-block bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-green-700 transition duration-300">Join Today!</a>
+                    </p>
+                </div>
+                <!-- Service 2: Gamified Task Manager -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-center mb-4 text-gray-900">Gamified Task Manager</h3>
+                    <div class="text-blue-600 mb-4 text-center">
+                        <Image src={gamifiedTaskManagerLogo} width="200" alt="Gamified Task Manager Logo" />
+                    </div>
+                    <p class="text-gray-700 text-center">
+                        Building your own system sounds great in theory, but sometimes you need something ready to go out of the box. That system still needs to be flexible, and should also have an element of fun. That's why I've been developing a gamified task manager that combines a real world task manager with a cozy video game! It'll feature a customizable task manager where completing your real life tasks will give you rewards to use in a fantasy adventure. You can follow the development of the project over on YouTube!
+                    </p>
+                    <p class="mt-4 text-center">
+                        <a href="https://youtube.com/playlist?list=PLsntwn2ixQrM6njdiIoIgbA8HgqJqtE0N&si=DHi2Uy1gYYhXyCMv" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-red-700 transition duration-300">Follow on YouTube</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
   <!-- <div class="container"> -->
